@@ -9,3 +9,8 @@ var config = require('./config.webgme'),
 
 validateConfig(config);
 module.exports = config;
+
+
+// Seeds
+config.seedProjects.enable = true;
+config.seedProjects.basePaths = ["./src/seeds"];
